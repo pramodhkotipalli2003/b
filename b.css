@@ -1,0 +1,109 @@
+.name{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 300px;
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.text{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 30px;
+}
+
+.pic1 {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/1688215706271.jpg);
+    background-size:cover;
+}
+.pic2 {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/1688651158521.jpg);
+    background-size: cover;
+}
+
+.pic3 {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/1700642280186.jpg);
+    background-size: cover;
+}
+
+.pic4 {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    transition: 2s;
+    background-image: url(./pics/1706354118198.jpg);
+    background-size: cover;
+}
+.pic5 {
+    color: blue;
+    background-color: red;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    position: absolute;
+    border-radius: 50%;
+    font-size: 35px;
+
+
+}
+
+.pic5 h1{
+    size: 20px;
+    text-align: center;
+}
+.name:hover .pic1{
+    transform: rotate(360deg) translatex(200px);
+
+}
+.name:hover .pic2 {
+    transform: rotate(360deg) translatey(200px);
+
+}
+.name:hover .pic3 {
+    transform: rotate(360deg) translatex(-200px);
+
+}
+.name:hover .pic4 {
+    transform: rotate(360deg) translatey(-200px);
+
+}
+.name:hover .pic5{
+    display: none;
+}
+.name:hover .text{
+    color: white;
+    z-index: 9;
+
+}
